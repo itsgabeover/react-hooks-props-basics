@@ -2,7 +2,14 @@ import React from "react";
 import BlogPost from "./BlogPost";
 
 function App() {
-  return <BlogPost />;
+  return (
+    <div>
+      <BlogPost/>
+      <BlogPost/>
+      <BlogPost/>
+      <BlogPost/> 
+    </div>
+  )
 }
 
 export default App;
